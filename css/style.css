@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1500px;
+}
+.D1{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    animation: change1 2s linear forwards ;
+}
+@keyframes change1{
+    0% {
+        background-color:aliceblue ;
+        left: 0;
+    }
+    100%{
+        background-color: #DAF5FF;
+        left: 1108px;
+    }
+}
+.D2{
+    width: 200px;
+    height: 150px;
+    background-color:#DAF5FF;
+    position: absolute;
+    margin-top:180px;
+    right: 0;
+    animation: change2 2s linear 2s forwards ;
+}
+@keyframes change2{
+    0% {
+        background-color:#DAF5FF ;
+        right: 0;
+    }
+    100%{
+        background-color:#B9E9FC;
+        right: 1108px;
+    }
+}
+.D3{
+    width: 200px;
+    height: 150px;
+    background-color:#B9E9FC;
+    position: absolute;
+    margin-top:360px;
+    animation: change3 2s linear 4s forwards ;
+}
+@keyframes change3{
+    0% {
+        background-color:#B9E9FC ;
+        left: 0;
+    }
+    100%{
+        background-color:#B0DAFF;
+        left: 1108px;
+    }
+}
+.D4{
+    width: 200px;
+    height: 150px;
+    background-color:#B0DAFF;
+    position: absolute;
+    margin-top:540px;
+    right: 0;
+    animation: change4 2s linear 6s forwards ;
+}
+@keyframes change4{
+    0% {
+        background-color:#B0DAFF;
+        right: 0;
+    }
+    100%{
+        background-color:#82AAE3;
+        right: 1108px;
+    }
+}
+.D5{
+    width: 200px;
+    height: 150px;
+    background-color:#82AAE3;
+    position: absolute;
+    margin-top:720px;
+    animation: change5 2s linear 8s forwards ;
+}
+@keyframes change5{
+    0% {
+        background-color:#82AAE3;
+        left: 0;
+    }
+    100%{
+        background-color:#2C74B3;
+        left: 1108px;
+    }
+}
+.D6{
+    width: 200px;
+    height: 150px;
+    background-color:#2C74B3;
+    position: absolute;
+    margin-top:900px;
+    right: 0;
+    animation: change6 2s linear 10s forwards ;
+}
+@keyframes change6{
+    0% {
+        background-color:#2C74B3;
+        right: 0;
+    }
+    100%{
+        background-color:#205295;
+        right: 1108px;
+    }
+}
+.D7{
+    width: 200px;
+    height: 150px;
+    background-color:#205295;
+    position: absolute;
+    margin-top:1080px;
+    animation: change7 2s linear 12s forwards ;
+}
+@keyframes change7{
+    0% {
+        background-color:#205295;
+        left: 0;
+    }
+    100%{
+        background-color:#144272;
+        left: 1108px;
+    }
+}
+.D8{
+    width: 200px;
+    height: 150px;
+    background-color:#144272;
+    position: absolute;
+    margin-top:1260px;
+    right: 0;
+    animation: change8 2s linear 14s forwards ;
+}
+@keyframes change8{
+    0% {
+        background-color:#144272;
+        right: 0;
+    }
+    100%{
+        background-color:#0A2647;
+        right: 1108px;
+    }
+}
